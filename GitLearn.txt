@@ -45,4 +45,5 @@ branch  分支  可以更安全方便的进行项目的推进  通过分支开�
 	切换分支：git checkout branch_name
 	合起来：git checkout -b branch_name
 	合并分支到当前分支：git merge branch_name
-
+	
+	合并时有冲突的分支 会用 <<<<<<<<  ======= >>>>>>>分割  需要手动修改之后 add commit
