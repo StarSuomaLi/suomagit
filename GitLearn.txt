@@ -1,5 +1,6 @@
 添加一个文件到仓库中：
 	git add <filename.ext>
 同步一个或者一批文件到仓库中：
-	git commit -m "说明 最好写本次
+	git commit -m "说明 最好是本次
 					同步的内容简介"
+	git status 可以查看git当前的同步状态  但是看不到具体的区别
