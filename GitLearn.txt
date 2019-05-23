@@ -35,4 +35,7 @@
 	首次推送需要加-u 将远程仓库的master和本地的master关联起来之后  之后所有的推送都
 	可以直接使用git push origin master即可
 
+	在github上新建仓库后，可以直接在本地克隆远程仓库 git clone git@github.com:username/	   respository_name.git 除了git远程的克隆远程命令之外 还可以这样写
+	git clone https://github.com/username/respository_name.git
+	
 
