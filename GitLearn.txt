@@ -38,4 +38,9 @@
 	在github上新建仓库后，可以直接在本地克隆远程仓库 git clone git@github.com:username/	   respository_name.git 除了git远程的克隆远程命令之外 还可以这样写
 	git clone https://github.com/username/respository_name.git
 	
+branch  分支  可以更安全方便的进行项目的推进  通过分支开发后合并到主分支中去
+	创建分支：git branch branch_name 
+	切换分支：git checkout branch_name
+	合起来：git checkout -b branch_name
+	合并分支到当前分支：git merge branch_name
 
