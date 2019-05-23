@@ -18,3 +18,5 @@
 	几位即可
 
 	git diff HEAD -- <filename.ext>比较工作区中的文件和当前git版本中的已提交的版本不同
+
+	git checkout -- <filename.ext> 取消目前工作去中所做的所有改动 还原到 最近的add 或者commit中
