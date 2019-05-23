@@ -16,3 +16,5 @@
 
 	git reset --hard 版本号 直接到达对应的版本 版本号不用写全部 可以只输入前
 	几位即可
+
+	git diff HEAD -- <filename.ext>比较工作区中的文件和当前git版本中的已提交的版本不同
