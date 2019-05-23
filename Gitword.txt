@@ -2,3 +2,4 @@
 #Git is free software
 #to change something for a test!
 #add a new message!
+#add a fresh news!
