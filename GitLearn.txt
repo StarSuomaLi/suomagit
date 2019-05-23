@@ -1,4 +1,4 @@
-添加一个文件到仓库中：
+	添加一个文件到仓库中：
 	git add <filename.ext>
 同步一个或者一批文件到仓库中：
 	git commit -m "说明 最好是本次
@@ -37,5 +37,7 @@
 
 	在github上新建仓库后，可以直接在本地克隆远程仓库 git clone git@github.com:username/	   respository_name.git 除了git远程的克隆远程命令之外 还可以这样写
 	git clone https://github.com/username/respository_name.git
+
+branch：删除分支：git branch -d branch_name
 	
 
