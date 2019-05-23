@@ -4,3 +4,6 @@
 	git commit -m "说明 最好是本次
 					同步的内容简介"
 	git status 可以查看git当前的同步状态  但是看不到具体的区别
+
+	git diff 可以查看git同步之前的具体代码差别
+
