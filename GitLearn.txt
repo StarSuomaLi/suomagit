@@ -47,3 +47,12 @@ branch  分支  可以更安全方便的进行项目的推进  通过分支开�
 	合并分支到当前分支：git merge branch_name
 	
 	合并时有冲突的分支 会用 <<<<<<<<  ======= >>>>>>>分割  需要手动修改之后 add commit
+
+	合并分支时可以使用 --no-ff 命令来使得分支被删除后仍然可以看到记录 
+	git merge --no-ff -m "合并分支并留下记录" branch_name 
+	可以通过 git log --graph --pretty=oneline --abbrev-commit 来查看分支历史图
+
+
+
+
+
