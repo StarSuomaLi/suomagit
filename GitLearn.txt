@@ -40,4 +40,9 @@
 
 branch：删除分支：git branch -d branch_name
 	
+branch  分支  可以更安全方便的进行项目的推进  通过分支开发后合并到主分支中去
+	创建分支：git branch branch_name 
+	切换分支：git checkout branch_name
+	合起来：git checkout -b branch_name
+	合并分支到当前分支：git merge branch_name
 
